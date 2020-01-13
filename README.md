@@ -28,3 +28,5 @@ step 3.     app.rb ----> index.erb
 
 
 '''
+
+bookmark manager.jpg
