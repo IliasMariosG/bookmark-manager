@@ -13,7 +13,7 @@ step 2.     app.rb --> user.rb --(retrieve_bookmarks)--> bookmarks
 step 3.     app.rb ----> index.erb
 
 
-'''html
+```html
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
 <!DOCTYPE html>
 <html>
@@ -27,5 +27,5 @@ step 3.     app.rb ----> index.erb
 </html>
 
 
-'''
+```
 
