@@ -13,4 +13,4 @@ step 2.     app.rb --> user.rb --(retrieve_bookmarks)--> bookmarks
 step 3.     app.rb ----> index.erb
 
 
-
+![alt text](https://github.com/ratcliffetj/bookmark-manager/blob/master/bookmark%20manager.jpg?raw=true)
