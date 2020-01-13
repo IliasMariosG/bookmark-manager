@@ -6,11 +6,5 @@ As a user, so that I can view my bookmarks, I would like a list of my bookmarks 
 
 <h2>Domain model</h2>
 
-step 1.     app.rb --(retrieve_user)--> users_list.rb
-
-step 2.     app.rb --> user.rb --(retrieve_bookmarks)--> bookmarks 
-
-step 3.     app.rb ----> index.erb
-
 
 ![alt text](https://github.com/ratcliffetj/bookmark-manager/blob/master/bookmark%20manager.jpg?raw=true)
