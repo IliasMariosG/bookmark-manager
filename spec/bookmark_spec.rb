@@ -2,11 +2,11 @@ require 'bookmark'
 
 describe Bookmark do
   
-  describe '#all' do
+  describe '#view_all_bookmarks' do
     it 'return a list of bookmarks' do
-      book = Bookmark.new
-      expect(book.all).to include('Bookmark 1')
-      expect(book.all).to include('Bookmark 2')
+      expect(Bookmark.new.view_all_bookmarks).to include('http://www.makersacademy.com')
+      expect(Bookmark.new.view_all_bookmarks).to include('https://google.com')
+      expect(Bookmark.new.view_all_bookmarks).to include('https://destroyallsoftware.com')
     end
   end
 end
