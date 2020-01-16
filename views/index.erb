@@ -1,1 +1,16 @@
-<%= @bookmarks.join(", ") %>
+<h1>Bookmark Manager</h1>
+
+<div>
+  <ul> 
+    <% @bookmarks.each do |bookmark| %>
+    <li>  <%= bookmark.title %> <%= bookmark.url %> </li>
+    <% end %>
+  </ul>
+</div>
+<div>
+  <form action="/bookmark" method="post">
+    <input type=text name=create_title value="enter title">
+    <input type=text name=create_url value="enter url">
+    <input type="submit" value="Add new">  
+  </form>
+</div>

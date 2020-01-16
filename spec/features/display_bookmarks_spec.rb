@@ -7,6 +7,6 @@ feature 'Displays bookmarks' do
       bookmarks.exec("INSERT INTO bookmarks VALUES (3, 'https://destroyallsoftware.com');")
     
       visit '/'
-    expect(page).to have_content 'http://www.makersacademy.com, https://google.com, https://destroyallsoftware.com'
+    expect(page).to have_content 'http://www.makersacademy.com'
   end
 end
